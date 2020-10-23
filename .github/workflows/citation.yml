@@ -22,7 +22,7 @@ jobs:
         git add citation_stats.json
         git commit -m "Updated Citation Data"
     - name: Push changes
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@main
       with:
         github_token: ${{ secrets.STOKEN }}
         force: true
