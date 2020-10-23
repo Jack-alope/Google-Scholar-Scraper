@@ -14,4 +14,3 @@ $.getJSON('https://raw.githubusercontent.com/YOUR_USERNAME/google-scholar-scrape
 
         total_cit.innerHTML = text; 
 });
-
