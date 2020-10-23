@@ -7,7 +7,6 @@ Creates a json file ```citation_stats.json``` that can be read from html using j
 
 To use for any google scholar. Fork and change the google scholar url in ```scraper.js``` and the JSON url in the js example below.
 
-
 ##### Example js that updates an html paragraph id=total_cit:  
 ```  
 $.getJSON('https://raw.githubusercontent.com/YOUR_USERNAME/google-scholar-scraper/main/citation_stats.json', function(data) {
